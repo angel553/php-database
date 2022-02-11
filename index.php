@@ -1,3 +1,7 @@
+<?php
+  require('conexion.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +11,13 @@
   <title>index</title>
 </head>
 <body>
-  <a href="formulario.php">Formulario</a>
-  <a href="conexion.php">Conexion</a>
+  <h1>Conexión PHP y Base de Datos</h1>
+  <div>
+    <span><b>Acceso al Formulario:</b></span>
+    <a href="formulario.php">clic aquí</a>
+  </div>
+  <div>
+    <h4>Consulta de datos:</h4>     
+  </div>  
 </body>
 </html>
